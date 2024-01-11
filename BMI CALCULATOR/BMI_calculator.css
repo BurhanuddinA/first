@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #8ebd90, rgb(108, 178, 165));
+  margin: 0;
+}
+
+.container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.result-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #dcafc1;
+  border-radius: 18px;
+  width: 50%; /* Adjust the width as needed */
+  margin: auto; /* Center the result box horizontally */
+  text-align: center;
+}
+
+#bmiResult {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+#bmiValue {
+  font-weight: bold;
+  color: #036d2d;
+}
+  
